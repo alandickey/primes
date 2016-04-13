@@ -24,24 +24,50 @@ The initial structure of project is:
     git/primes
     ├── c++
     │   ├── primes.cc
-    │   └── README.md
+    │   ├── README.md
+    │   └── run.sh
     ├── nodejs
     │   ├── primes.js
-    │   └── README.md
-    └── README.md
+    │   ├── README.md
+    │   └── run.sh
+    ├── README.md
+    └── run.sh
+
 
 The * README.md * files contain documentation notes for the individual language implementations. 
 The top-most file is the note you are reading.
  
 I used [nodejs][] instead of * V8 * to run my javascript implementation, since nodejs uses V8 as the javascript engine,
 and nodejs is a useful server-side tool. My version of `nodejs/primes.js` is modified to use the `console.log` method instead
-of `print`.
+of `print`. The `run.sh` files are shell scripts to compile and time execution.
+
+On my Intel core i5 running Ubuntu 14.04 amd64:
+
+    $ cd git/primes
+    $ ./run.sh
+    /home/adickey/git/primes/c++
+    g++ primes.cc -o primes
+    time primes
+    287107
+    
+    real    0m1.768s
+    user    0m1.764s
+    sys     0m0.000s
+    /home/adickey/git/primes/nodejs
+    time node primes.js
+    287107
+    
+    real    0m9.886s
+    user    0m9.932s
+    sys     0m0.012s
+
+These results are similar to [slide 17][].
 
 My initial git setup was:
 
     $ cd git/primes
     $ git init
-    $ git add README.md c++/primes.cc c++/README.md nodejs/primes.js nodejs/README.md
+    $ git add README.md run.sh c++/primes.cc c++/README.md c++/run.md nodejs/primes.js nodejs/README.md nodejs/run.md
 
 
 [GIT]: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
