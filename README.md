@@ -26,6 +26,7 @@ The initial structure of project is:
     │   ├── primes.cc
     │   ├── README.md
     │   └── run.sh
+    ├── ChangeLog
     ├── nodejs
     │   ├── primes.js
     │   ├── README.md
@@ -67,8 +68,7 @@ My initial git setup was:
 
     $ cd git/primes
     $ git init
-    $ git add README.md run.sh c++/primes.cc c++/README.md c++/run.md nodejs/primes.js nodejs/README.md nodejs/run.md
-
+    $ git add ChangeLog README.md run.sh c++/primes.cc c++/README.md c++/run.md nodejs/primes.js nodejs/README.md nodejs/run.md
 
 [GIT]: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 [GITLAB]: https://about.gitlab.com/
