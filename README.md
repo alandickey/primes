@@ -9,14 +9,14 @@ This project is motivated by:
 5. My interest in [programming languages][].
 6. My interest in [code optimization][].
 
-In * Breaking the JavaScript Speed Limit with V8i, * Daniel Clifford shows how to optimize a prime number generator written in [Javascript][]
+In * Breaking the JavaScript Speed Limit with V8, * Daniel Clifford shows how to optimize a prime number generator written in [Javascript][]
 using knowledge of the underlying V8 implementation written in [C++][]. In his [slide presetation][], He shows examples of the generator written in javascript and C++,
-then compares the execution speed of the javascript version running under V8 to the C++ version.
+then compares the execution speed of the javascript version running under V8 to that of the C++ version.
 
 Clifford's prime number generator finds the 25,000th prime number by calculating the first 25,000 primes. The algorithm is stated on [slide 15][] and
 the two implementations of the algorithm are presented on [slide 16][]. The initial execution results are on [slide 17][].
 
-Clifford's implementations are the starting point for the Primes project. 
+Clifford's implementations are the starting point for my Primes project. 
 
 The initial structure of project is:
 
@@ -34,8 +34,8 @@ The * README.md * files contain documentation notes for the individual language 
 The top-most file is the note you are reading.
  
 I used [nodejs][] instead of * V8 * to run my javascript implementation, since nodejs uses V8 as the javascript engine,
-and nodejs is a useful server-side tool. My version of nodejs/primes.js is modified to use the console.log method instead
-of print.
+and nodejs is a useful server-side tool. My version of `nodejs/primes.js` is modified to use the `console.log` method instead
+of `print`.
 
 My initial git setup was:
 
