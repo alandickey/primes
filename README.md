@@ -64,12 +64,6 @@ On my Intel core i5 running Ubuntu 14.04 amd64:
 
 These results are similar to [slide 17][].
 
-My initial git setup was:
-
-    $ cd git/primes
-    $ git init
-    $ git add ChangeLog README.md run.sh c++/primes.cc c++/README.md c++/run.md nodejs/primes.js nodejs/README.md nodejs/run.md
-
 [GIT]: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 [GITLAB]: https://about.gitlab.com/
 [GitHub]: https://github.com/alandickey
