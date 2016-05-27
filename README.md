@@ -35,7 +35,7 @@ The initial structure of project is:
     └── run.sh
 
 
-The_ README.md_ files contain documentation notes for the individual language implementations. 
+The _README.md_ files contain documentation notes for the individual language implementations. 
 The top-most file is the note you are reading.
  
 I used [nodejs][] instead of [V8][] to run my javascript implementation, since nodejs uses V8 as its javascript engine,
