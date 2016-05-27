@@ -35,11 +35,11 @@ The initial structure of project is:
     └── run.sh
 
 
-The * README.md * files contain documentation notes for the individual language implementations. 
+The_ README.md_ files contain documentation notes for the individual language implementations. 
 The top-most file is the note you are reading.
  
-I used [nodejs][] instead of **V8** to run my javascript implementation, since nodejs uses V8 as the javascript engine,
-and nodejs is a useful server-side tool. My version of `nodejs/primes.js` is modified to use the `console.log` method instead
+I used [nodejs][] instead of [V8][] to run my javascript implementation, since nodejs uses V8 as its javascript engine,
+and nodejs, a useful server-side tool, is what I am using. My version of `nodejs/primes.js` is modified to use the `console.log` method instead
 of `print`. The `run.sh` files are shell scripts to compile and time execution.
 
 On my Intel core i5 running Ubuntu 14.04 amd64:
@@ -87,4 +87,4 @@ My initial git setup was:
 [C++]: http://en.cppreference.com/w/
 [Javascript]: http://www.ecma-international.org/ecma-262/6.0/
 [nodejs]: https://nodejs.org
-
+[V8]: https://en.wikipedia.org/wiki/V8_(JavaScript_engine)
