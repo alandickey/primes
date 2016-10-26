@@ -77,7 +77,7 @@ These results are similar to [slide 17][].
 [slide 17]: http://v8-io12.appspot.com/#17
 [prime numbers]: https://en.wikipedia.org/wiki/Prime_number
 [programming languages]: https://en.wikipedia.org/wiki/Programming_language
-[code optimization]: http://c2.com/cgi/wiki?RulesOfOptimizationi
+[code optimization]: http://c2.com/cgi/wiki?RulesOfOptimization
 [C++]: http://en.cppreference.com/w/
 [Javascript]: http://www.ecma-international.org/ecma-262/6.0/
 [nodejs]: https://nodejs.org
